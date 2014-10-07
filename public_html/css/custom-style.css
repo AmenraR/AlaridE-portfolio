@@ -1,0 +1,140 @@
+div{
+   
+    padding:0px;
+}
+
+.body{
+    font-family: 'Muli', sans-serif; 
+    background-color: #E1E1DE;
+}
+.container{
+    background-color: #CACAC8;
+}
+
+.row{
+    padding-top: 0px;
+    border-color: red;
+}
+
+
+.content{
+    font-size: 25px;
+    text-align: center;
+    height: 650px;
+    background-image: url(http://imgora.com/wp-content/uploads/2014/02/358903_gorod_parizh_yejfeleva_2596x1728_www.GdeFon.ru_.jpg);
+    background-size: 100%;
+}
+
+.content-box{
+    background-color: rgba(0,0,0,0.6);
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 470px;
+    color: whitesmoke;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.title{
+    font-size: 35px;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    
+    width: 200px;
+    height:95px;
+    padding-bottom: 35px;
+    margin-bottom: 15px;
+}
+
+.title1{
+    font-size: 35px;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    
+    width: 200px;
+    height:45px;
+    padding-bottom: 35px;
+    margin-bottom: 15px;
+}
+
+.content-left{
+    padding:15px;
+    border-right-width: 2px;
+    border-right-style: solid;
+    width: 480px;
+    height: 430px; 
+}
+.header{
+    
+    border-color: pink;
+}
+
+.overall{
+    height:625px;
+}
+
+.verticaltext {
+    
+    font-size: 75px;
+    height:170px;
+    width:600px;
+    margin-top: 200px;
+    margin-left: 50px;
+    transform: rotate(-90deg);
+    //transform-origin: right, top;
+    -ms-transform: rotate(-90deg);
+    //-ms-transform-origin:right, top;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin:right, top;
+    position: absolute; 
+    background: url('images/background.jpg');
+}
+
+.links{
+    margin-top: 300px;
+    font-size: 80px;
+    color: whitesmoke;
+    text-align: left;
+    width: 500px;
+}
+
+/* Effect 15: scale down, reveal */
+.cl-effect-15 a {
+    color: rgba(0,0,0,0.4);
+    font-weight: 700;
+    text-shadow: none;
+}
+ 
+.cl-effect-15 a::before {
+    color: #fff;
+    content: attr(data-hover);
+    position: absolute;
+    transition: transform 0.3s, opacity 0.3s;
+}
+ 
+.cl-effect-15 a:hover::before,
+.cl-effect-15 a:focus::before {
+    transform: scale(0.9);
+    opacity: 0;
+}
+
+/*div{
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    padding: 30px;
+}
+
+.container{
+    border-color: blue;
+    
+}
+
+.row{
+    border-color: red;
+}
+
+.list-group-item{
+    border: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}*/
